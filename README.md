@@ -37,7 +37,7 @@ The `Models` folder includes the following classes:
 
 ## 🛠️ Tech Stack
 
-- **Framework**: ASP.NET MVC 5
+- **Framework**: ASP.NET 9 MVC 
 - **Language**: C#
 - **Database**: SQL Server (Entity Framework)
 - **Frontend**: HTML, CSS, Bootstrap, Razor Views
