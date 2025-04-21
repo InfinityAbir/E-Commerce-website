@@ -1,4 +1,4 @@
-# E-Commerce Project (ASP.NET MVC)
+# E-Commerce Project (ASP.NET 9 MVC)
 
 This project is a fully functional **E-Commerce web application** developed using **ASP.NET MVC** with **C#**. It includes all the core functionalities of a shopping platform such as product listing, user authentication, cart management, wishlist, orders, payments, and an admin panel.
 
@@ -44,6 +44,3 @@ The `Models` folder includes the following classes:
 - **Tools**: Visual Studio
 
 ---
-
-## 🗂️ Folder Structure
-
