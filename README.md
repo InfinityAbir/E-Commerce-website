@@ -1,39 +1,12 @@
 # E-Commerce Project (ASP.NET 9 MVC)
 
-This project is a fully functional **E-Commerce web application** developed using **ASP.NET MVC** with **C#**. It includes all the core functionalities of a shopping platform such as product listing, user authentication, cart management, wishlist, orders, payments, and an admin panel.
-
----
-
 ## ✨ Key Features
 
-- **User Authentication**: Separate models for Admin and Customer.
-- **Product Management**: Categorized product listings with inventory tracking.
-- **Cart & Wishlist**: Add products to cart or save them for later.
-- **Order & Payment**: Place orders and simulate a payment process.
-- **Ratings**: Customers can rate products.
-- **Admin Panel**: Manage products, categories, and inventory.
+# ASP.NET Core Web API Project
 
----
+## 🚀 Overview
 
-## 📦 Models
-
-The `Models` folder includes the following classes:
-
-| Model           | Description                                  |
-|----------------|----------------------------------------------|
-| `Admin.cs`      | Admin user details and credentials           |
-| `Cart.cs`       | Manages products added to the cart           |
-| `Category.cs`   | Defines product categories                   |
-| `Customer.cs`   | Contains customer account information        |
-| `ErrorViewModel.cs` | Handles error display and reporting     |
-| `Inventory.cs`  | Tracks product stock levels                  |
-| `Order.cs`      | Stores customer order details                |
-| `Payment.cs`    | Represents payment information for orders    |
-| `Product.cs`    | Core model for product information           |
-| `Rating.cs`     | Stores customer ratings for products         |
-| `Wishlist.cs`   | Products saved by users for later viewing    |
-
----
+This project is a web application built with **ASP.NET Core**, leveraging the `Microsoft.NET.Sdk.Web` SDK. It serves as a backend API that can be consumed by client applications such as web frontends, mobile apps, or third-party services.
 
 ## 🛠️ Tech Stack
 
@@ -42,5 +15,45 @@ The `Models` folder includes the following classes:
 - **Database**: SQL Server (Entity Framework)
 - **Frontend**: HTML, CSS, Bootstrap, Razor Views
 - **Tools**: Visual Studio
-
 ---
+## 🏗️ Features
+
+- Role-based login system
+- Add/edit/delete products 
+- Supplier delivery records
+- Products alerts (low stock, expiry)
+- Intuitive and responsive UI
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Visual Studio 2022 or newer
+- .NET Framework 4.7.2+
+- SQL Server (LocalDB or Express)
+---------------------------------------------------------------------------------
+### Steps to Run
+
+**Clone the Repository**
+   ```bash
+   git clone https://github.com/InfinityAbir/Inventory-Management-System.git
+
+1. Open in Visual Studio
+
+2. Unzip the project and open it in Visual Studio.
+
+3. If any issues occur, delete the bin/, obj/, and .vs/ folders and reload the project.
+
+4. Configure Database Connection
+
+5. Go to appsettings.json.
+
+6. Update the ConnectionStrings section with your SQL Server instance details.
+
+7. Click Build > Build Solution or press Ctrl+Shift+B.
+
+8. Then run the application using F5 or the Start button.
+
+9. Customize as Needed
+
+10. Feel free to update or extend the project as per your requirements!
